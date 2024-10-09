@@ -1,5 +1,14 @@
 
+## Installation
 
+1. Clone dette repository:
+
+```
+   git clone https://github.com/NikoKiru/product_service
+   cd product_service
+   docker build -t product_service .
+   docker run -it --rm -p 5000:5000 -v ${PWD}:/home/data product_service
+```
 
 ## API Endpoints
 
